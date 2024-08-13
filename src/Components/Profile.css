@@ -1,0 +1,63 @@
+.profile-container {
+  padding: 20px;
+  
+  border-radius: 8px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1); /* Slightly larger shadow for emphasis */
+  max-width: 500px; /* Set a max-width for better layout control */
+  margin: 20px auto; /* Center container */
+  font-family: 'Arial', sans-serif; /* Ensure consistent font */
+}
+
+.profile-container h2 {
+  margin-bottom: 20px;
+  font-size: 26px; /* Larger font size for the heading */
+  color: #333; /* Darker color for better readability */
+}
+
+.profile-container input {
+  display: block;
+  width: 100%;
+  padding: 12px; /* Slightly larger padding for better touch target */
+  margin-bottom: 15px; /* Increased margin for spacing */
+  border: 1px solid #ddd; /* Lighter border for a softer look */
+  border-radius: 6px; /* Rounded corners */
+  font-size: 16px; /* Larger font size for input text */
+  color: #333; /* Darker text color */
+  transition: border-color 0.3s ease; /* Smooth border color transition */
+}
+
+.profile-container input:focus {
+  border-color: #007bff; /* Highlight border color on focus */
+  outline: none;
+}
+
+.profile-container button {
+  padding: 12px 24px; /* Larger padding for buttons */
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px; /* Rounded corners */
+  cursor: pointer;
+  font-size: 16px; /* Larger font size for button text */
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.profile-container button:hover {
+  background-color: #0056b3; /* Darker shade for hover effect */
+}
+
+.delete-button {
+  background-color: #e63946; /* A distinct color for delete actions */
+  color: white;
+  border: none;
+  padding: 12px 24px; /* Consistent padding with other buttons */
+  margin-top: 15px; /* Increased margin for spacing */
+  cursor: pointer;
+  font-size: 16px; /* Consistent font size */
+  border-radius: 6px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.delete-button:hover {
+  background-color: #d62839; /* Darker red for hover effect */
+}

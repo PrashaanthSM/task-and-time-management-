@@ -1,0 +1,65 @@
+:root {
+  --primary-color: #007bff;
+  --primary-dark: #0056b3;
+  --background-color: #f9f9f9;
+  --form-background: #fff;
+  --border-color: #ccc;
+  --text-color: #333;
+  --placeholder-color: #888;
+}
+
+.task-container h2 {
+  text-align: center;
+  margin-bottom: 10px; /* Reduced margin */
+  color: var(--text-color);
+}
+
+.form-container {
+  padding: 15px; /* Reduced padding */
+  background-color: var(--form-background);
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* Reduced shadow */
+  max-width: 600px; /* Adjusted width */
+  margin: 20px auto; /* Centered container with margin */
+}
+
+.task-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.task-form input,
+.task-form select {
+  margin-bottom: 10px; /* Reduced margin */
+  padding: 10px; /* Reduced padding */
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  font-size: 14px; /* Reduced font size */
+  color: var(--text-color);
+  transition: border-color 0.3s ease;
+}
+
+.task-form input:focus,
+.task-form select:focus {
+  border-color: var(--primary-color);
+  outline: none;
+}
+
+.task-form button {
+  padding: 10px 16px; /* Reduced padding */
+
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px; /* Reduced font size */
+  transition: background-color 0.3s ease;
+}
+
+.task-form button:hover {
+  background-color: var(--primary-dark);
+}
+
+.task-form input::placeholder,
+.task-form select::placeholder {
+  color: var(--placeholder-color);
+}

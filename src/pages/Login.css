@@ -1,0 +1,91 @@
+/* Container for centering the login form */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background-color: rgba(255, 255, 255, 0.54); /* Slightly less opaque background */
+}
+
+/* Styling for the login form */
+.login-form {
+  background: rgba(255, 255, 255, 0.8); /* More opaque background */
+  padding: 40px; /* Slightly reduced padding for a more compact look */
+  border-radius: 10px; /* Increased border radius for a softer look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Enhanced shadow effect */
+  max-width: 400px; /* Set a max width to prevent overly wide forms */
+  width: 100%; /* Ensure the form takes full width within its container */
+}
+
+/* Heading style in the login form */
+.login-form h2 {
+  font-size: 30px; /* Slightly smaller font size */
+  margin-bottom: 20px; /* Increased bottom margin for spacing */
+}
+
+/* Form group styling for consistent spacing */
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px; /* Increased margin for better spacing */
+}
+
+/* Label styling within form groups */
+.form-group label {
+  min-width: 120px; /* Reduced minimum width for labels */
+  margin-right: 15px; /* Increased margin for better alignment */
+  font-weight: bold; /* Added font weight for better visibility */
+}
+
+/* Input field styling */
+.form-group input {
+  flex: 1; /* Allows input to take up available space */
+  padding: 12px; /* Increased padding for better usability */
+  border: 2px solid #ddd; /* Lighter border for a cleaner look */
+  border-radius: 4px;
+  font-size: 16px; /* Ensures input text is readable */
+  color: #333; /* Darker text color for better readability */
+}
+
+/* Placeholder text styling */
+.form-group input::placeholder {
+  color: #888; /* Lighter color for placeholder text */
+  font-style: italic; /* Italic style for placeholder text */
+}
+
+/* Error message styling */
+.error {
+  color: red;
+  margin-bottom: 15px;
+  font-size: 14px; /* Ensures error messages are clear but not overwhelming */
+}
+
+/* Button styling */
+button {
+  width: 100%; /* Full width for a more consistent appearance */
+  padding: 12px; /* Increased padding for a more comfortable click area */
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff; /* More professional blue color */
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #0056b3; /* Darker blue for hover effect */
+}
+
+/* Styling for the signup redirect button */
+.signup-redirect {
+  width: 100%;
+  margin-top: 10px; /* Added margin for spacing */
+}
+
+/* Styling for the signup button */
+.signup-button {
+  width: 100%;
+  background-color: #007bff; /* Consistent color with other buttons */
+  color: white; /* White text for readability */
+}
